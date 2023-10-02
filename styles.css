@@ -1,0 +1,84 @@
+
+/* .main_container {
+    background-color: blanchedalmond;
+} */
+
+h1{
+    display: flex; 
+    justify-content: flex-start;
+    margin-right: auto;
+    color:seagreen;
+    text-decoration: none;
+    float: right;
+
+}
+ 
+
+#box1 {
+    height: 270px;
+    width: 550px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 2px solid beige;
+    background-color: azure;
+
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+}
+#box2 {
+    display: flex;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 115px;
+    border: 2px solid beige;
+    background-color: azure;
+}
+
+#box3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: 1025px;
+    border: 2px solid beige;
+    background-color: azure;
+}
+
+#box4 {
+    float: right;
+    height: 600px;
+    width: 75px;
+    display: flex;
+    flex-flow: nowrap;
+    border: 2px solid beige;
+    background-color: azure;
+}
+
+#picture {
+    display: flex;
+    width: 100px;
+    height: 150px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    object-fit: contain;
+}
+
+.rightsidebar {
+    float: right;
+    flex-wrap: nowrap;
+
+}
+
+.rightsidebar label {
+    display: inline;
+}
+
+
+.p :only-child {
+    flex-wrap: wrap;
+}
