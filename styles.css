@@ -1,27 +1,31 @@
 
-/* .main_container {
-    background-color: blanchedalmond;
-} */
-
+  
 h1{
     display: flex; 
     justify-content: flex-start;
-    margin-right: auto;
     color:seagreen;
-    text-decoration: none;
     float: right;
-
+    position: relative;
+    top: -50%;
 }
- 
 
-#box1 {
-    height: 270px;
+h3{
+    display: flex; 
+    justify-content: space-evenly;
+    color:seagreen;
+    float: right;
+    position: relative;
+    top: -30%;
+    width: -9vw;
+}
+
+#box1  {
+    height: 200px;
     width: 550px;
     margin-bottom: 10px;
     margin-top: 10px;
     border: 2px solid beige;
     background-color: azure;
-
 }
 
 #name{
@@ -29,27 +33,37 @@ h1{
     flex-direction: column;
 }
 #box2 {
-    display: flex;
+    display: flex; 
+    justify-content: flex-start;
     float: right;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-    height: 115px;
+    position: relative;
+    top: -28vh;
     border: 2px solid beige;
     background-color: azure;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 200px; 
+
 }
 
 #box3 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    height: auto;
-    width: 1025px;
+    display: flex; 
+    justify-content:space-around;
+    position: relative;
+    top: -50%;
     border: 2px solid beige;
     background-color: azure;
+    width: 94vw;
+    top: -15vh;
 }
 
 #box4 {
+    display: flex; 
+    justify-content: flex-start;
     float: right;
+    position: relative;
+    top: -45vh;
     height: 600px;
     width: 75px;
     display: flex;
@@ -66,11 +80,13 @@ h1{
     padding-bottom: 5px;
     padding-right: 5px;
     object-fit: contain;
+    
 }
 
 .rightsidebar {
+    display: grid;
     float: right;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 
 }
 
@@ -81,4 +97,12 @@ h1{
 
 .p :only-child {
     flex-wrap: wrap;
+}
+
+#picture {
+    position:relative;
+}
+
+#section2 {
+    background-color:gray;
 }
